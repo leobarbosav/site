@@ -1,0 +1,54 @@
+/* This CSS rule sets the background color of the header to blue */
+header {
+    background-color: #ffffff;
+    color: #000000; /* This sets the text color to white */
+    padding: 20px; /* This adds some padding around the header content */
+  }
+  
+  /* This CSS rule sets the font size of the heading to 36 pixels and centers the text */
+  header h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px;
+  }
+  
+  .header-left {
+    flex: 1;
+  }
+  
+  nav {
+    flex: 1;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  nav a:hover {
+    color: #1e90ff;
+  }
+  
